@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"><!-- kaynak kodda xmlns gözükmüyo !-->
+<head>
+    <!-- utf8 demeden türkçe karakter gözüktü mace özel mi bilmiyorum !-->
+    <title>Merhaba Dünya</title>
+</head>
+<body>
+    <h1>Hoşgeldin <!--/*@thymesVar id="name" type="java.lang.String"*/-->
+    <span th:text="${name}"></span> !</h1>
+</body>
+</html>
